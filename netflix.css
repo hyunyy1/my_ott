@@ -1,0 +1,72 @@
+.netflixlogo {
+  background-color: rgba(248, 244, 244, 0.895);
+}
+
+.container .movies {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.container .movies .movie {
+  width: 200px;
+  height: 250px;
+  margin: 4px;
+  margin: 40px 20px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: .3s;
+}
+
+.container .movies .movie:hover {
+  transform: scale(1.3);
+
+}
+
+.container .movies .movie .image {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container .movies .movie:nth-child(1) .image {background-image: url("./img/m1.jpg");}
+.container .movies .movie:nth-child(2) .image {background-image: url("./img/m2.jpg");}
+.container .movies .movie:nth-child(3) .image {background-image: url("./img/m3.jpg");}
+.container .movies .movie:nth-child(4) .image {background-image: url("./img/m4.jpg");}
+.container .movies .movie:nth-child(5) .image {background-image: url("./img/m5.jpg");}
+.container .movies .movie:nth-child(6) .image {background-image: url("./img/m6.jpg");}
+.container .movies .movie:nth-child(7) .image {background-image: url("./img/m7.jpg");}
+.container .movies .movie:nth-child(8) .image {background-image: url("./img/m8.jpg");}
+.container .movies .movie:nth-child(9) .image {background-image: url("./img/m9.jpg");}
+.container .movies .movie:nth-child(10) .image {background-image: url("./img/m10.jpg");}
+.container .movies .movie:nth-child(11) .image {background-image: url("./img/m11.jpg");}
+.container .movies .movie:nth-child(12) .image {background-image: url("./img/m12.jpg");}
+.container .movies .movie:nth-child(13) .image {background-image: url("./img/m13.jpg");}
+.container .movies .movie:nth-child(14) .image {background-image: url("./img/m14.jpg");}
+.container .movies .movie:nth-child(15) .image {background-image: url("./img/m15.jpg");}
+.container .movies .movie:nth-child(16) .image {background-image: url("./img/m16.jpg");}
+.container .movies .movie:nth-child(17) .image {background-image: url("./img/m17.jpg");}
+.container .movies .movie:nth-child(18) .image {background-image: url("./img/m18.jpg");}
+.container .movies .movie:nth-child(19) .image {background-image: url("./img/m19.jpg");}
+.container .movies .movie:nth-child(20) .image {background-image: url("./img/m20.jpg");}
+.container .movies .movie:nth-child(21) .image {background-image: url("./img/m21.jpg");}
+.container .movies .movie:nth-child(22) .image {background-image: url("./img/m22.jpg");}
+.container .movies .movie:nth-child(23) .image {background-image: url("./img/m23.jpg");}
+.container .movies .movie:nth-child(24) .image {background-image: url("./img/m24.jpg");}
+
+
+.home {
+  text-align: center;
+  height: 100px;
+}
+
+.home svg {
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  color: black;
+}
